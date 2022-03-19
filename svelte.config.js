@@ -36,8 +36,7 @@
           // target: '#svelte',
 
           //Added for static adapter
-          adapter: adapter(),
-          target: '#svelte'
+          adapter: adapter()
       }
   }
 
