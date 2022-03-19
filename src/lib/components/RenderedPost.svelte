@@ -67,11 +67,11 @@
   <meta name="twitter:title" content={meta.title} />
   <meta property="og:description" content={meta.excerpt} />
   <meta name="twitter:description" content={meta.excerpt} />
-  <meta property="og:image" content="https://joshcollinsworth.com{imagePath}" />
+  <meta property="og:image" content="https://rickyjanuari.com{imagePath}" />
   <meta property="og:image:width" content={meta.coverWidth} />
   <meta property="og:image:height" content={meta.coverHeight} />
-  <meta name="twitter:image" content="https://joshcollinsworth.com{imagePath}" />
-  <meta property="og:url" content="https://joshcollinsworth.com/blog/{meta.slug}/" />
+  <meta name="twitter:image" content="https://rickyjanuari.com{imagePath}" />
+  <meta property="og:url" content="https://rickyjanuari.com/blog/{meta.slug}/" />
 </svelte:head>
 
 

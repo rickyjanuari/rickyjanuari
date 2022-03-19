@@ -23,14 +23,14 @@ const render = (posts: Post[]): string => `<?xml version="1.0" encoding="UTF-8" 
 <channel>
 <title>Ricky Januari</title>
 <description>Ricky Januari</description>
-<link>https://joshcollinsworth.com</link>
-<atom:link href="https://joshcollinsworth.com/rss.xml" rel="self" type="application/rss+xml"/>
+<link>https://rickyjanuari.com</link>
+<atom:link href="https://rickyjanuari.com/rss.xml" rel="self" type="application/rss+xml"/>
 ${posts
   .map(
     (post) => `<item>
-<guid isPermaLink="true">https://joshcollinsworth.com/blog/${post.slug}</guid>
+<guid isPermaLink="true">https://rickyjanuari.com/blog/${post.slug}</guid>
 <title>${post.title}</title>
-<link>https://joshcollinsworth.com/blog/${post.slug}</link>
+<link>https://rickyjanuari.com/blog/${post.slug}</link>
 <description>${post.excerpt}</description>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
 </item>`

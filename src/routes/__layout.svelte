@@ -84,7 +84,7 @@
 	<meta name="twitter:site" content="@rickyjanuari"/>
   <meta name="twitter:card" content="summary_large_image" />
 	{#if !dev}
-		<script defer data-domain="joshcollinsworth.com" src="https://plausible.io/js/plausible.js"></script>
+		<script defer data-domain="rickyjanuari.com" src="https://plausible.io/js/plausible.js"></script>
 	{/if}
 </svelte:head>
 

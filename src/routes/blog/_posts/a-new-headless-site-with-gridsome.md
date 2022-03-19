@@ -20,7 +20,7 @@ excerpt: A lengthy write-up diving into what headless means, its advantages and 
 </script>
 
 <SideNote>
-This post is a bit outdated; this website still looks and works mostly the same, but it's no longer headless WordPress <em>or</em> Gridsome; it's <a href="https://joshcollinsworth.com/blog/converting-from-gridsome-to-sveltekit">SvelteKit</a>. So a few of the smaller features described here, like the search bar, aren't in place anymore.
+This post is a bit outdated; this website still looks and works mostly the same, but it's no longer headless WordPress <em>or</em> Gridsome; it's <a href="https://rickyjanuari.com/blog/converting-from-gridsome-to-sveltekit">SvelteKit</a>. So a few of the smaller features described here, like the search bar, aren't in place anymore.
 </SideNote>
 
 There's a joke (the kind that's made less because it's funny and more because it's true) about developers and designers spending more time redesigning their website than actually _doing_ something with it. Right off the bat, I'll go ahead and admit I fit that cliché; I've had some version of this blog live since 2014, and the number of redesigns I've done is uncomfortably close to the number of _actual blog posts_ I've written in that same time.
@@ -292,7 +292,7 @@ In my case, there was a pretty considerable slew of DNS changes to be considered
 
 Bear in mind also that **the original site will need to remain at least partially available** (at least, if you plan on deploying more than once), even if you point your main domain to the headless front-end, and crucially, even if you don't need API access on the original site.
 
-In my case, I pointed `joshcollinsworth.com` away from the WordPress site and to the headless front-end, but created a separate A record for `api.joshcollinsworth.com`, and used that subdomain as the access point for the original site.
+In my case, I pointed `rickyjanuari.com` away from the WordPress site and to the headless front-end, but created a separate A record for `api.rickyjanuari.com`, and used that subdomain as the access point for the original site.
 
 That gets things working; however, you'll probably want to make sure WordPress also redirects all traffic that would normally hit the front-end (regardless of domain) back to your live headless front end; otherwise, people will still be able to see the old version of the site _and_ the new one, one on each domain. (This could probably be done with a redirection plugin, but you may want to use your web server's config directly instead. Either way, it's going to require a knowledgeable and delicate touch.)
 

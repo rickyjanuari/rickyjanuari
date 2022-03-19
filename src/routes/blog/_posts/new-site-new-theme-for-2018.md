@@ -46,14 +46,14 @@ Speaking of Sass: it's invaluable. During theme development, I set up variables 
 
 I also got to take the opportunity to finally learn and implement [Timber](https://wordpress.org/plugins/timber-library/). I'd been hearing too many good things for too long to ignore it any more.
 
-I love the way Timber makes template files so much cleaner, abstracting output code to bare minimums and eliminating the need to deal with the loop directly. Like any framework, though, there's a little bit of a learning curve, particularly for some of WordPress's more complex functionality, like comments and pagination. It's very well documented, though. I would recommend it, and look forward to using it again. I'll have to add it to my [essential tools](https://api.joshcollinsworth.com/essential-tools-wordpress-development/) for WordPress development.
+I love the way Timber makes template files so much cleaner, abstracting output code to bare minimums and eliminating the need to deal with the loop directly. Like any framework, though, there's a little bit of a learning curve, particularly for some of WordPress's more complex functionality, like comments and pagination. It's very well documented, though. I would recommend it, and look forward to using it again. I'll have to add it to my [essential tools](https://api.rickyjanuari.com/essential-tools-wordpress-development/) for WordPress development.
 
 The theme runs mostly off a single index.php file which dynamically pulls in the appropriate Timber .twig files based on context. In fact, aside from the index file, the theme's only PHP template files are the footer and header, the functions file, and a sidebar file.
 
 
 ## Advanced Custom Fields + CSS Grid
 
-I also took this opportunity to use CSS grid on a project for the first time—specifically, on the [design](https://api.joshcollinsworth.com/design/) page. It turns out, CSS grid mixes really well with [Advanced Custom Fields](https://www.advancedcustomfields.com/), particularly the Pro Repeater field. I set up fields for images, height and width, to control the size of images in the grid:
+I also took this opportunity to use CSS grid on a project for the first time—specifically, on the [design](https://api.rickyjanuari.com/design/) page. It turns out, CSS grid mixes really well with [Advanced Custom Fields](https://www.advancedcustomfields.com/), particularly the Pro Repeater field. I set up fields for images, height and width, to control the size of images in the grid:
 
 <!-- svelte-ignore a11y-img-redundant-alt -->
 [![Custom fields that allow for a width and height property to use in the image grid](/images/post_images/acf-fields-1-1024x797.png)](/images/post_images/acf-fields-1.png)

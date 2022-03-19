@@ -47,8 +47,8 @@
 
 <svelte:head>
   <title>Blog | Categories</title>
-  <meta property="og:image" content="https://joshcollinsworth.com/images/site-image.png" />
-	<meta name="twitter:image" content="https://joshcollinsworth.com/images/site-image.png"/>
+  <meta property="og:image" content="https://rickyjanuari.com/images/site-image.png" />
+	<meta name="twitter:image" content="https://rickyjanuari.com/images/site-image.png"/>
 </svelte:head>
 
 
