@@ -7,8 +7,8 @@
   let yIn: number
   let yOut: number
 
-  $: yIn = $prefersReducedMotion ? 0 : 12
-  $: yOut = $prefersReducedMotion ? 0 : -12
+  $: yIn = $prefersReducedMotion ? 0 : 0
+  $: yOut = $prefersReducedMotion ? 0 : -0
 
   export let refresh: string|boolean = ''
   export let span: boolean = false

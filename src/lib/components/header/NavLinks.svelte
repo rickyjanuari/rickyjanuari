@@ -13,7 +13,7 @@
   <NavLink to="/projects" text="Projects" {path} />
   <NavLink to="/writing-and-speaking" text="Writing & Speaking" {path} />
   <NavLink to="/contact" text="Contact" {path} />
-  <NavLink to="/uses" text="Uses"{path} />
+  <NavLink to="/products" text="Products"{path} />
   <NavLink to="/berita" text="Berita"{path} />
   <NavLink to="/ukm" text="Ukm"{path} />
 </ul>  
