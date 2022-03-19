@@ -1,0 +1,117 @@
+input[type='checkbox'] {
+	& + label {
+		display: flex;
+		align-items: center;
+		position: relative;
+
+		&:before {
+			content: '';
+			width: 1rem;
+			height: 1rem;
+			border: 2px solid;
+			display: inline-block;
+			margin-right: 0.5rem;
+		}
+	}
+
+	&:checked + label {
+		&:after {
+			content: '';
+			width: 0.4rem;
+			height: 0.7rem;
+			border-bottom: 0.2rem solid var(--yellow);
+			border-right: 0.2rem solid var(--yellow);
+			position: absolute;
+			left: 0.3rem;
+			bottom: 0.45rem;
+			z-index: 2;
+			display: block;
+			transform: rotate(45deg);
+		}
+	}
+}
+
+label {
+	display: block;
+	margin: 0;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	background: transparent;
+	border: 1px solid var(--ink);
+	padding: 0.5rem;
+	color: inherit;
+	font-size: 1rem;
+	font-style: italic;
+	margin-bottom: var(--halfNote);
+}
+
+input {
+	&[type=radio],
+	&[type=checkbox] {
+		display: initial;
+		width: initial;
+		margin: initial;
+	}
+
+	&[type=search] {
+		color: inherit;
+		font-style: inherit;
+	}
+}
+
+button,
+input[type=submit] {
+	border: 1px solid;
+	padding: 0.5rem 1rem;
+	background: var(--lighterBlue);
+	font-size: 1rem;
+	font-family: var(--headingFont);
+	color: var(--ink);
+	margin: 0;
+	transition: background 0.15s;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+
+	.dark & {
+		background: var(--darkBlue);
+	}
+	
+	&:hover {
+		background: hsla(var(--lightBlueHSL), 0.2);
+	}
+}
+
+.settings-toggle {
+	--itemTransition: 0.25s cubic-bezier(1, 0, 0, 1);
+
+	cursor: pointer;
+	height: var(--buttonSize);
+	width: var(--buttonSize);
+	flex: 0 0 var(--buttonSize);
+	overflow: hidden;
+	margin-left: 0.75rem;
+	padding: 0;
+	position: relative;
+	border-radius: 2rem;
+	border: 2px solid var(--ink);
+	background: var(--buttonBackground);
+	transition: background var(--itemTransition), color var(--itemTransition),
+		border-color var(--itemTransition), transform .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	z-index: 11;
+
+	+ .settings-toggle {
+		transition-delay: 0.05s;
+	}
+
+	&:hover {
+		background: var(--buttonBackground);
+	}
+
+	.dark & {
+		border-width: 2px; //Prevents overrides from above button styles
+	}
+}

@@ -1,0 +1,61 @@
+@use './preferences';
+@use './fonts';
+@use './typography';
+@use './utilities';
+@use './layout';
+@use './forms';
+@use './code';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+*:focus,
+input[type="checkbox"]:focus + label {
+  outline: 2px solid var(--lightBlue);
+  outline-offset: 1px;
+}
+
+main:focus {
+	outline: none;
+}
+
+::selection {
+  background: var(--yellow);
+  color: var(--highlightColor); /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: var(--yellow);
+  color: var(--highlightColor); /* Gecko Browsers */
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: calc(var(--eighthNote) * 0.25);
+}
+  
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  /* the "track" of the bar - great for customizing "background" colors */
+  background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+  /* the actual draggable element, the star of the show! */
+  background: var(--yellow);
+}
+
+body {
+  font-family: var(--bodyFont);
+  color: var(--ink);
+  margin: 0;
+  padding: 0;
+  overflow: overlay;
+}
+
+html, body {
+  scrollbar-color: var(--yellow) transparent;
+  scrollbar-width: thin;
+}

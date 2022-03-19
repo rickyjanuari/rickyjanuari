@@ -1,15 +1,43 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+  import preprocess from 'svelte-preprocess'
+	import autoprefixer from 'autoprefixer'
+  import adapter from '@sveltejs/adapter-static'
+  import { mdsvex } from 'mdsvex'
+	import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+	import rehypeSlug from 'rehype-slug'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
-	preprocess: preprocess(),
+	extensions: ['.svelte', '.md'],
+	preprocess: [
+		preprocess({
+			scss: {
+				prependData: `@use 'src/lib/assets/scss/vars';`
+			},
+			postcss: {
+				plugins: [autoprefixer]
+			}
+		}),
+		mdsvex({
+			extensions: ['.md'],
+			highlight: {
+				alias: { vue: 'html' }
+			},
+			rehypePlugins: [
+				rehypeSlug,
+				rehypeAutolinkHeadings,
+			],
+		}),
+	],
 
 	kit: {
-		adapter: adapter()
+		// hydrate the <div id="svelte"> element in src/app.html
+		// target: '#svelte',
+
+		//Added for static adapter
+		adapter: adapter(),
 	}
-};
+}
 
 export default config;
