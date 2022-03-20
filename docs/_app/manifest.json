@@ -1,0 +1,1078 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-36a497e7.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_preload-helper-cf989e91.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/writing-and-speaking.svelte",
+      "src/routes/products/__layout.svelte",
+      "src/routes/products/index.svelte",
+      "src/routes/products/[slug].svelte",
+      "src/routes/projects.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/berita/__layout.svelte",
+      "src/routes/berita/index.svelte",
+      "src/routes/berita/[slug].svelte",
+      "src/routes/resume.svelte",
+      "src/routes/blog/__layout.svelte",
+      "src/routes/blog/index.svelte",
+      "src/routes/blog/category/index.svelte",
+      "src/routes/blog/category/[category].svelte",
+      "src/routes/blog/preview/[slug].svelte",
+      "src/routes/blog/page/[page].svelte",
+      "src/routes/blog/[post].svelte",
+      "src/routes/uses.svelte",
+      "src/routes/ukm/index.svelte",
+      "src/routes/ukm/[slug].svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-a8d13e7f.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_store-17e8b0ad.js",
+      "_navigation-53ece758.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-2858a215.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-23c77fb4.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "css": [
+      "assets/pages/__error.svelte-3f81cfec.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-ed1ebe1d.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/writing-and-speaking.svelte": {
+    "file": "pages/writing-and-speaking.svelte-81acd422.js",
+    "src": "src/routes/writing-and-speaking.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PostList-5ba61222.js",
+      "_Main-f748586d.js",
+      "_TagList-bde82414.js",
+      "_ExternalLink-10e1f92c.js"
+    ],
+    "css": [
+      "assets/pages/writing-and-speaking.svelte-84ba3410.css"
+    ]
+  },
+  "src/routes/products/__layout.svelte": {
+    "file": "pages/products/__layout.svelte-cccdbdfd.js",
+    "src": "src/routes/products/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Sidebar-8b7ed7f7.js",
+      "_navigation-53ece758.js",
+      "_TagList-bde82414.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/berita/__layout.svelte-fa968e67.css"
+    ]
+  },
+  "src/routes/products/index.svelte": {
+    "file": "pages/products/index.svelte-53d21f9d.js",
+    "src": "src/routes/products/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/products/[slug].svelte": {
+    "file": "pages/products/_slug_.svelte-3a58b0a7.js",
+    "src": "src/routes/products/[slug].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/projects.svelte": {
+    "file": "pages/projects.svelte-332c560e.js",
+    "src": "src/routes/projects.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "css": [
+      "assets/pages/projects.svelte-5708ff4a.css"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "pages/contact.svelte-0e82ece1.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "css": [
+      "assets/pages/contact.svelte-2623752f.css"
+    ]
+  },
+  "src/routes/berita/__layout.svelte": {
+    "file": "pages/berita/__layout.svelte-f5e3a422.js",
+    "src": "src/routes/berita/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Sidebar-8b7ed7f7.js",
+      "_navigation-53ece758.js",
+      "_TagList-bde82414.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/berita/__layout.svelte-fa968e67.css"
+    ]
+  },
+  "src/routes/berita/index.svelte": {
+    "file": "pages/berita/index.svelte-47a93727.js",
+    "src": "src/routes/berita/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/berita/[slug].svelte": {
+    "file": "pages/berita/_slug_.svelte-e72e35cc.js",
+    "src": "src/routes/berita/[slug].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/resume.svelte": {
+    "file": "pages/resume.svelte-c50e7e9c.js",
+    "src": "src/routes/resume.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-cf989e91.js",
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "dynamicImports": [
+      "src/lib/content/resume.md"
+    ],
+    "css": [
+      "assets/pages/resume.svelte-00b667c1.css"
+    ]
+  },
+  "src/routes/blog/__layout.svelte": {
+    "file": "pages/blog/__layout.svelte-7ed29563.js",
+    "src": "src/routes/blog/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Sidebar-8b7ed7f7.js",
+      "_navigation-53ece758.js",
+      "_TagList-bde82414.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/berita/__layout.svelte-fa968e67.css"
+    ]
+  },
+  "src/routes/blog/index.svelte": {
+    "file": "pages/blog/index.svelte-d68f7e3b.js",
+    "src": "src/routes/blog/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js",
+      "_Pagination-4f56842f.js",
+      "_PostList-5ba61222.js",
+      "_TagList-bde82414.js",
+      "_ExternalLink-10e1f92c.js"
+    ]
+  },
+  "src/routes/blog/category/index.svelte": {
+    "file": "pages/blog/category/index.svelte-308e92a0.js",
+    "src": "src/routes/blog/category/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "css": [
+      "assets/pages/blog/category/index.svelte-a5cabfc2.css"
+    ]
+  },
+  "src/routes/blog/category/[category].svelte": {
+    "file": "pages/blog/category/_category_.svelte-70514759.js",
+    "src": "src/routes/blog/category/[category].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_fetchPosts-105cffc3.js",
+      "_Main-f748586d.js",
+      "_PostList-5ba61222.js",
+      "_preload-helper-cf989e91.js",
+      "_TagList-bde82414.js",
+      "_ExternalLink-10e1f92c.js"
+    ],
+    "css": [
+      "assets/pages/blog/category/_category_.svelte-540fb1e8.css"
+    ]
+  },
+  "src/routes/blog/preview/[slug].svelte": {
+    "file": "pages/blog/preview/_slug_.svelte-d4d73d80.js",
+    "src": "src/routes/blog/preview/[slug].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_RenderedPost-ce30fcea.js",
+      "_TagList-bde82414.js",
+      "_store-17e8b0ad.js",
+      "_Main-f748586d.js"
+    ]
+  },
+  "src/routes/blog/page/[page].svelte": {
+    "file": "pages/blog/page/_page_.svelte-11b0f066.js",
+    "src": "src/routes/blog/page/[page].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_fetchPosts-105cffc3.js",
+      "_PostList-5ba61222.js",
+      "_Main-f748586d.js",
+      "_Pagination-4f56842f.js",
+      "_preload-helper-cf989e91.js",
+      "_TagList-bde82414.js",
+      "_ExternalLink-10e1f92c.js"
+    ],
+    "css": [
+      "assets/pages/blog/page/_page_.svelte-6f01ac72.css"
+    ]
+  },
+  "src/routes/blog/[post].svelte": {
+    "file": "pages/blog/_post_.svelte-7855500f.js",
+    "src": "src/routes/blog/[post].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-cf989e91.js",
+      "_vendor-b62d7b9b.js",
+      "_RenderedPost-ce30fcea.js",
+      "_TagList-bde82414.js",
+      "_store-17e8b0ad.js",
+      "_Main-f748586d.js"
+    ],
+    "dynamicImports": [
+      "src/routes/blog/_posts/12-things.md",
+      "src/routes/blog/_posts/8-student-portfolio-mistakes.md",
+      "src/routes/blog/_posts/a-new-headless-site-with-gridsome.md",
+      "src/routes/blog/_posts/add-blog-comments-static-site.md",
+      "src/routes/blog/_posts/adding-gutenberg-full-and-wide-width-image-support-to-your-wordpress-theme.md",
+      "src/routes/blog/_posts/announcing-quina-my-first-app.md",
+      "src/routes/blog/_posts/build-static-sveltekit-markdown-blog.md",
+      "src/routes/blog/_posts/confirm-all-ids-are-unique-in-an-array-of-javascript-objects-using-map-and-sets.md",
+      "src/routes/blog/_posts/converting-from-gridsome-to-sveltekit.md",
+      "src/routes/blog/_posts/creating-custom-gutenberg-blocks-with-the-block-lab-plugin.md",
+      "src/routes/blog/_posts/essential-tools-wordpress-development.md",
+      "src/routes/blog/_posts/filetypes.md",
+      "src/routes/blog/_posts/five-ways-to-become-a-better-designer-that-arent-design.md",
+      "src/routes/blog/_posts/goodbye-instagram.md",
+      "src/routes/blog/_posts/goodbye-wordpress.md",
+      "src/routes/blog/_posts/how-to-connect-local-with-codekit.md",
+      "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md",
+      "src/routes/blog/_posts/lets-learn-css-variables.md",
+      "src/routes/blog/_posts/new-site-new-theme-for-2018.md",
+      "src/routes/blog/_posts/pantone.md",
+      "src/routes/blog/_posts/profit-is-not-a-value.md",
+      "src/routes/blog/_posts/the-five-things-i-wish-somebody-had-told-me-as-a-design-student.md",
+      "src/routes/blog/_posts/why-designers-shouldnt-remake-other-designers-logos.md",
+      "src/routes/blog/_posts/wordpress-child-theme-explanation.md"
+    ]
+  },
+  "src/routes/uses.svelte": {
+    "file": "pages/uses.svelte-54e2a40a.js",
+    "src": "src/routes/uses.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-cf989e91.js",
+      "_vendor-b62d7b9b.js",
+      "_Main-f748586d.js"
+    ],
+    "dynamicImports": [
+      "src/lib/content/uses.md"
+    ],
+    "css": [
+      "assets/pages/uses.svelte-89e6f538.css"
+    ]
+  },
+  "src/routes/ukm/index.svelte": {
+    "file": "pages/ukm/index.svelte-0ebb1dbc.js",
+    "src": "src/routes/ukm/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/ukm/[slug].svelte": {
+    "file": "pages/ukm/_slug_.svelte-f11fcc75.js",
+    "src": "src/routes/ukm/[slug].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "_vendor-b62d7b9b.js": {
+    "file": "chunks/vendor-b62d7b9b.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_preload-helper-cf989e91.js": {
+    "file": "chunks/preload-helper-cf989e91.js"
+  },
+  "_navigation-53ece758.js": {
+    "file": "chunks/navigation-53ece758.js",
+    "imports": [
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "_store-17e8b0ad.js": {
+    "file": "chunks/store-17e8b0ad.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "_Main-f748586d.js": {
+    "file": "chunks/Main-f748586d.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "_PostList-5ba61222.js": {
+    "file": "chunks/PostList-5ba61222.js",
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_TagList-bde82414.js",
+      "_ExternalLink-10e1f92c.js"
+    ],
+    "css": [
+      "assets/PostList-7831d634.css"
+    ]
+  },
+  "_TagList-bde82414.js": {
+    "file": "chunks/TagList-bde82414.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/TagList-413d58d5.css"
+    ]
+  },
+  "_ExternalLink-10e1f92c.js": {
+    "file": "chunks/ExternalLink-10e1f92c.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/ExternalLink-0287f125.css"
+    ]
+  },
+  "_Sidebar-8b7ed7f7.js": {
+    "file": "chunks/Sidebar-8b7ed7f7.js",
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_TagList-bde82414.js"
+    ],
+    "css": [
+      "assets/Sidebar-81bd121c.css"
+    ]
+  },
+  "_Pagination-4f56842f.js": {
+    "file": "chunks/Pagination-4f56842f.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/Pagination-7586d39d.css"
+    ]
+  },
+  "_fetchPosts-105cffc3.js": {
+    "file": "chunks/fetchPosts-105cffc3.js",
+    "imports": [
+      "_preload-helper-cf989e91.js"
+    ],
+    "dynamicImports": [
+      "src/routes/blog/_posts/12-things.md",
+      "src/routes/blog/_posts/8-student-portfolio-mistakes.md",
+      "src/routes/blog/_posts/a-new-headless-site-with-gridsome.md",
+      "src/routes/blog/_posts/add-blog-comments-static-site.md",
+      "src/routes/blog/_posts/adding-gutenberg-full-and-wide-width-image-support-to-your-wordpress-theme.md",
+      "src/routes/blog/_posts/announcing-quina-my-first-app.md",
+      "src/routes/blog/_posts/build-static-sveltekit-markdown-blog.md",
+      "src/routes/blog/_posts/confirm-all-ids-are-unique-in-an-array-of-javascript-objects-using-map-and-sets.md",
+      "src/routes/blog/_posts/converting-from-gridsome-to-sveltekit.md",
+      "src/routes/blog/_posts/creating-custom-gutenberg-blocks-with-the-block-lab-plugin.md",
+      "src/routes/blog/_posts/essential-tools-wordpress-development.md",
+      "src/routes/blog/_posts/filetypes.md",
+      "src/routes/blog/_posts/five-ways-to-become-a-better-designer-that-arent-design.md",
+      "src/routes/blog/_posts/goodbye-instagram.md",
+      "src/routes/blog/_posts/goodbye-wordpress.md",
+      "src/routes/blog/_posts/how-to-connect-local-with-codekit.md",
+      "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md",
+      "src/routes/blog/_posts/lets-learn-css-variables.md",
+      "src/routes/blog/_posts/new-site-new-theme-for-2018.md",
+      "src/routes/blog/_posts/pantone.md",
+      "src/routes/blog/_posts/profit-is-not-a-value.md",
+      "src/routes/blog/_posts/the-five-things-i-wish-somebody-had-told-me-as-a-design-student.md",
+      "src/routes/blog/_posts/why-designers-shouldnt-remake-other-designers-logos.md",
+      "src/routes/blog/_posts/wordpress-child-theme-explanation.md"
+    ]
+  },
+  "_RenderedPost-ce30fcea.js": {
+    "file": "chunks/RenderedPost-ce30fcea.js",
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_TagList-bde82414.js",
+      "_store-17e8b0ad.js",
+      "_Main-f748586d.js"
+    ],
+    "css": [
+      "assets/RenderedPost-6370ab12.css"
+    ]
+  },
+  "src/lib/content/resume.md": {
+    "file": "chunks/resume-39767487.js",
+    "src": "src/lib/content/resume.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/blog/_posts/12-things.md": {
+    "file": "chunks/12-things-9bd7b71f.js",
+    "src": "src/routes/blog/_posts/12-things.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "_PullQuote-4bfb8591.js": {
+    "file": "chunks/PullQuote-4bfb8591.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "_SideNote-4caa8e18.js": {
+    "file": "chunks/SideNote-4caa8e18.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/8-student-portfolio-mistakes.md": {
+    "file": "chunks/8-student-portfolio-mistakes-b7dab3fe.js",
+    "src": "src/routes/blog/_posts/8-student-portfolio-mistakes.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/a-new-headless-site-with-gridsome.md": {
+    "file": "chunks/a-new-headless-site-with-gridsome-f91f045e.js",
+    "src": "src/routes/blog/_posts/a-new-headless-site-with-gridsome.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/Highlight.svelte_svelte_type_style_lang-1ebd68ed.css",
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/add-blog-comments-static-site.md": {
+    "file": "chunks/add-blog-comments-static-site-f1563d5d.js",
+    "src": "src/routes/blog/_posts/add-blog-comments-static-site.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_Callout-31ac9c3d.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "_Callout-31ac9c3d.js": {
+    "file": "chunks/Callout-31ac9c3d.js",
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/Callout-3bfc9671.css"
+    ]
+  },
+  "src/routes/blog/_posts/adding-gutenberg-full-and-wide-width-image-support-to-your-wordpress-theme.md": {
+    "file": "chunks/adding-gutenberg-full-and-wide-width-image-support-to-your-wordpress-theme-2bec208c.js",
+    "src": "src/routes/blog/_posts/adding-gutenberg-full-and-wide-width-image-support-to-your-wordpress-theme.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/announcing-quina-my-first-app.md": {
+    "file": "chunks/announcing-quina-my-first-app-5f4ec348.js",
+    "src": "src/routes/blog/_posts/announcing-quina-my-first-app.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js",
+      "_CalloutPlusQuote-fc6a138d.js",
+      "_Callout-31ac9c3d.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "_CalloutPlusQuote-fc6a138d.js": {
+    "file": "chunks/CalloutPlusQuote-fc6a138d.js",
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_Callout-31ac9c3d.js"
+    ]
+  },
+  "src/routes/blog/_posts/build-static-sveltekit-markdown-blog.md": {
+    "file": "chunks/build-static-sveltekit-markdown-blog-ada9c0d5.js",
+    "src": "src/routes/blog/_posts/build-static-sveltekit-markdown-blog.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Callout-31ac9c3d.js",
+      "_SideNote-4caa8e18.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/build-static-sveltekit-markdown-blog-4a2977b3.css",
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/confirm-all-ids-are-unique-in-an-array-of-javascript-objects-using-map-and-sets.md": {
+    "file": "chunks/confirm-all-ids-are-unique-in-an-array-of-javascript-objects-using-map-and-sets-e04988c5.js",
+    "src": "src/routes/blog/_posts/confirm-all-ids-are-unique-in-an-array-of-javascript-objects-using-map-and-sets.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/converting-from-gridsome-to-sveltekit.md": {
+    "file": "chunks/converting-from-gridsome-to-sveltekit-d071605c.js",
+    "src": "src/routes/blog/_posts/converting-from-gridsome-to-sveltekit.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Callout-31ac9c3d.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/creating-custom-gutenberg-blocks-with-the-block-lab-plugin.md": {
+    "file": "chunks/creating-custom-gutenberg-blocks-with-the-block-lab-plugin-95f6c4b0.js",
+    "src": "src/routes/blog/_posts/creating-custom-gutenberg-blocks-with-the-block-lab-plugin.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_Callout-31ac9c3d.js",
+      "_CalloutPlusQuote-fc6a138d.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/essential-tools-wordpress-development.md": {
+    "file": "chunks/essential-tools-wordpress-development-05c0086f.js",
+    "src": "src/routes/blog/_posts/essential-tools-wordpress-development.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/filetypes.md": {
+    "file": "chunks/filetypes-711b61da.js",
+    "src": "src/routes/blog/_posts/filetypes.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/routes/blog/_posts/five-ways-to-become-a-better-designer-that-arent-design.md": {
+    "file": "chunks/five-ways-to-become-a-better-designer-that-arent-design-82536eb8.js",
+    "src": "src/routes/blog/_posts/five-ways-to-become-a-better-designer-that-arent-design.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/goodbye-instagram.md": {
+    "file": "chunks/goodbye-instagram-6c670c8d.js",
+    "src": "src/routes/blog/_posts/goodbye-instagram.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/goodbye-wordpress.md": {
+    "file": "chunks/goodbye-wordpress-e32f987d.js",
+    "src": "src/routes/blog/_posts/goodbye-wordpress.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Callout-31ac9c3d.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/how-to-connect-local-with-codekit.md": {
+    "file": "chunks/how-to-connect-local-with-codekit-d862b76b.js",
+    "src": "src/routes/blog/_posts/how-to-connect-local-with-codekit.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md": {
+    "file": "chunks/introducing-svelte-comparing-with-react-vue-79b0e630.js",
+    "src": "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_Callout-31ac9c3d.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js",
+      "_preload-helper-cf989e91.js"
+    ],
+    "dynamicImports": [
+      "src/lib/components/demos/markdown/counter-button/vue3.md",
+      "src/lib/components/demos/markdown/props/vue3.md",
+      "src/lib/components/demos/markdown/toggle-button/vue3.md",
+      "src/lib/components/demos/markdown/volume-control/vue3.md",
+      "src/lib/components/demos/markdown/complex-conditionals/vue2.md",
+      "src/lib/components/demos/markdown/conditionals/vue2.md",
+      "src/lib/components/demos/markdown/counter-button/vue2.md",
+      "src/lib/components/demos/markdown/loops/vue2.md",
+      "src/lib/components/demos/markdown/props/vue2.md",
+      "src/lib/components/demos/markdown/toggle-button/vue2.md",
+      "src/lib/components/demos/markdown/volume-control/vue2.md",
+      "src/lib/components/demos/markdown/complex-conditionals/react.md",
+      "src/lib/components/demos/markdown/conditionals/react.md",
+      "src/lib/components/demos/markdown/counter-button/react.md",
+      "src/lib/components/demos/markdown/loops/react.md",
+      "src/lib/components/demos/markdown/props/react.md",
+      "src/lib/components/demos/markdown/toggle-button/react.md",
+      "src/lib/components/demos/markdown/volume-control/react.md",
+      "src/lib/components/demos/markdown/complex-conditionals/svelte.md",
+      "src/lib/components/demos/markdown/conditionals/svelte.md",
+      "src/lib/components/demos/markdown/counter-button/svelte.md",
+      "src/lib/components/demos/markdown/loops/svelte.md",
+      "src/lib/components/demos/markdown/props/svelte.md",
+      "src/lib/components/demos/markdown/toggle-button/svelte.md",
+      "src/lib/components/demos/markdown/volume-control/svelte.md"
+    ],
+    "css": [
+      "assets/introducing-svelte-comparing-with-react-vue-ec67fc47.css",
+      "assets/Highlight.svelte_svelte_type_style_lang-1ebd68ed.css",
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/lets-learn-css-variables.md": {
+    "file": "chunks/lets-learn-css-variables-e8c5eab6.js",
+    "src": "src/routes/blog/_posts/lets-learn-css-variables.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/new-site-new-theme-for-2018.md": {
+    "file": "chunks/new-site-new-theme-for-2018-aca23471.js",
+    "src": "src/routes/blog/_posts/new-site-new-theme-for-2018.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/pantone.md": {
+    "file": "chunks/pantone-5b0485d2.js",
+    "src": "src/routes/blog/_posts/pantone.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/profit-is-not-a-value.md": {
+    "file": "chunks/profit-is-not-a-value-adfb4957.js",
+    "src": "src/routes/blog/_posts/profit-is-not-a-value.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/the-five-things-i-wish-somebody-had-told-me-as-a-design-student.md": {
+    "file": "chunks/the-five-things-i-wish-somebody-had-told-me-as-a-design-student-a6310b1d.js",
+    "src": "src/routes/blog/_posts/the-five-things-i-wish-somebody-had-told-me-as-a-design-student.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/why-designers-shouldnt-remake-other-designers-logos.md": {
+    "file": "chunks/why-designers-shouldnt-remake-other-designers-logos-447cc63f.js",
+    "src": "src/routes/blog/_posts/why-designers-shouldnt-remake-other-designers-logos.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/routes/blog/_posts/wordpress-child-theme-explanation.md": {
+    "file": "chunks/wordpress-child-theme-explanation-efc0f408.js",
+    "src": "src/routes/blog/_posts/wordpress-child-theme-explanation.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_PullQuote-4bfb8591.js",
+      "_SideNote-4caa8e18.js"
+    ],
+    "css": [
+      "assets/SideNote.svelte_svelte_type_style_lang-e17b9b21.css"
+    ]
+  },
+  "src/lib/content/uses.md": {
+    "file": "chunks/uses-55382121.js",
+    "src": "src/lib/content/uses.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js",
+      "_ExternalLink-10e1f92c.js"
+    ],
+    "css": [
+      "assets/uses-4f8c5629.css"
+    ]
+  },
+  "src/lib/components/demos/markdown/counter-button/vue3.md": {
+    "file": "chunks/vue3-88e7493c.js",
+    "src": "src/lib/components/demos/markdown/counter-button/vue3.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/props/vue3.md": {
+    "file": "chunks/vue3-ae391dd4.js",
+    "src": "src/lib/components/demos/markdown/props/vue3.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/toggle-button/vue3.md": {
+    "file": "chunks/vue3-0302287f.js",
+    "src": "src/lib/components/demos/markdown/toggle-button/vue3.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/volume-control/vue3.md": {
+    "file": "chunks/vue3-3444bdc8.js",
+    "src": "src/lib/components/demos/markdown/volume-control/vue3.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/complex-conditionals/vue2.md": {
+    "file": "chunks/vue2-5164fb3b.js",
+    "src": "src/lib/components/demos/markdown/complex-conditionals/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/conditionals/vue2.md": {
+    "file": "chunks/vue2-8480e1ce.js",
+    "src": "src/lib/components/demos/markdown/conditionals/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/counter-button/vue2.md": {
+    "file": "chunks/vue2-d50f4aaf.js",
+    "src": "src/lib/components/demos/markdown/counter-button/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/loops/vue2.md": {
+    "file": "chunks/vue2-aecc9676.js",
+    "src": "src/lib/components/demos/markdown/loops/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/props/vue2.md": {
+    "file": "chunks/vue2-62257ffa.js",
+    "src": "src/lib/components/demos/markdown/props/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/toggle-button/vue2.md": {
+    "file": "chunks/vue2-8ecf5349.js",
+    "src": "src/lib/components/demos/markdown/toggle-button/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/volume-control/vue2.md": {
+    "file": "chunks/vue2-3ca6ed9b.js",
+    "src": "src/lib/components/demos/markdown/volume-control/vue2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/complex-conditionals/react.md": {
+    "file": "chunks/react-5197a51b.js",
+    "src": "src/lib/components/demos/markdown/complex-conditionals/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/conditionals/react.md": {
+    "file": "chunks/react-9a7edd33.js",
+    "src": "src/lib/components/demos/markdown/conditionals/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/counter-button/react.md": {
+    "file": "chunks/react-8f870680.js",
+    "src": "src/lib/components/demos/markdown/counter-button/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/loops/react.md": {
+    "file": "chunks/react-ed11276c.js",
+    "src": "src/lib/components/demos/markdown/loops/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/props/react.md": {
+    "file": "chunks/react-ad6eb014.js",
+    "src": "src/lib/components/demos/markdown/props/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/toggle-button/react.md": {
+    "file": "chunks/react-c544c9b2.js",
+    "src": "src/lib/components/demos/markdown/toggle-button/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/volume-control/react.md": {
+    "file": "chunks/react-db5b3e7e.js",
+    "src": "src/lib/components/demos/markdown/volume-control/react.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/complex-conditionals/svelte.md": {
+    "file": "chunks/svelte-9b4dde80.js",
+    "src": "src/lib/components/demos/markdown/complex-conditionals/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/conditionals/svelte.md": {
+    "file": "chunks/svelte-e34a5d36.js",
+    "src": "src/lib/components/demos/markdown/conditionals/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/counter-button/svelte.md": {
+    "file": "chunks/svelte-d04c0b89.js",
+    "src": "src/lib/components/demos/markdown/counter-button/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/loops/svelte.md": {
+    "file": "chunks/svelte-370da461.js",
+    "src": "src/lib/components/demos/markdown/loops/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/props/svelte.md": {
+    "file": "chunks/svelte-21b2c8bf.js",
+    "src": "src/lib/components/demos/markdown/props/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/toggle-button/svelte.md": {
+    "file": "chunks/svelte-dfc9fb06.js",
+    "src": "src/lib/components/demos/markdown/toggle-button/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  },
+  "src/lib/components/demos/markdown/volume-control/svelte.md": {
+    "file": "chunks/svelte-2ff1341d.js",
+    "src": "src/lib/components/demos/markdown/volume-control/svelte.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b62d7b9b.js"
+    ]
+  }
+}

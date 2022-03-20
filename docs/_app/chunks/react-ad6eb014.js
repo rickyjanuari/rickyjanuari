@@ -1,0 +1,11 @@
+import{S as c,i as l,s as u,e as i,c as k,a as r,d as p,b as g,g as m,I as t}from"./vendor-b62d7b9b.js";function d(e){let a,o=`<code class="language-jsx"><span class="token comment">// PageHeading.jsx</span>
+<span class="token keyword">const</span> <span class="token function-variable function">PostPreview</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">&#123;</span> pageTitle<span class="token punctuation">,</span> pageSubtitle <span class="token punctuation">&#125;</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span><span class="token plain-text">
+      </span><span class="token punctuation">&#123;</span>pageTitle<span class="token punctuation">&#125;</span><span class="token plain-text">
+      </span><span class="token punctuation">&#123;</span>pageSubtitle <span class="token operator">&amp;&amp;</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span><span class="token punctuation">></span></span><span class="token punctuation">&#123;</span>pageSubtitle<span class="token punctuation">&#125;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">></span></span>
+      <span class="token punctuation">&#125;</span><span class="token plain-text">
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">&#125;</span></code>`;return{c(){a=i("pre"),this.h()},l(n){a=k(n,"PRE",{class:!0});var s=r(a);s.forEach(p),this.h()},h(){g(a,"class","language-jsx")},m(n,s){m(n,a,s),a.innerHTML=o},p:t,i:t,o:t,d(n){n&&p(a)}}}class f extends c{constructor(a){super();l(this,a,null,d,u,{})}}export{f as default};

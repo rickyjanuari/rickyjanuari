@@ -1,0 +1,5 @@
+import{S as c,i as l,s as r,e as i,c as u,a as k,d as e,b as g,g as m,I as t}from"./vendor-b62d7b9b.js";function d(o){let a,p=`<code class="language-jsx"><span class="token punctuation">&#123;</span>
+  isUserLoggedIn 
+    <span class="token operator">?</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">WelcomeBanner</span></span> <span class="token punctuation">/></span></span>
+    <span class="token operator">:</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">LoginForm</span></span> <span class="token punctuation">/></span></span>
+<span class="token punctuation">&#125;</span></code>`;return{c(){a=i("pre"),this.h()},l(s){a=u(s,"PRE",{class:!0});var n=k(a);n.forEach(e),this.h()},h(){g(a,"class","language-jsx")},m(s,n){m(s,a,n),a.innerHTML=p},p:t,i:t,o:t,d(s){s&&e(a)}}}class f extends c{constructor(a){super();l(this,a,null,d,r,{})}}export{f as default};

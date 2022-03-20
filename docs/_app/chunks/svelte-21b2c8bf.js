@@ -1,0 +1,12 @@
+import{S as c,i as l,s as u,e as k,c as i,a as r,d as p,b as g,g as d,I as t}from"./vendor-b62d7b9b.js";function h(e){let a,o=`<code class="language-svelte"><span class="token comment">&lt;!-- PageHeading.svelte --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">export</span> <span class="token keyword">let</span> pageTitle
+  <span class="token keyword">export</span> <span class="token keyword">let</span> pageSubtitle <span class="token operator">=</span> <span class="token string">''</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>
+  <span class="token language-javascript"><span class="token punctuation">&#123;</span>pageTitle<span class="token punctuation">&#125;</span></span>
+  <span class="token language-javascript"><span class="token punctuation">&#123;</span>#<span class="token keyword">if</span> pageSubtitle<span class="token punctuation">&#125;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span><span class="token punctuation">></span></span><span class="token language-javascript"><span class="token punctuation">&#123;</span>pageSubtitle<span class="token punctuation">&#125;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">></span></span>
+  <span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token operator">/</span><span class="token keyword">if</span><span class="token punctuation">&#125;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></code>`;return{c(){a=k("pre"),this.h()},l(s){a=i(s,"PRE",{class:!0});var n=r(a);n.forEach(p),this.h()},h(){g(a,"class","language-svelte")},m(s,n){d(s,a,n),a.innerHTML=o},p:t,i:t,o:t,d(s){s&&p(a)}}}class v extends c{constructor(a){super();l(this,a,null,h,u,{})}}export{v as default};
