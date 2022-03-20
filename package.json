@@ -10,7 +10,8 @@
         "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
         "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
         "format": "prettier --write --plugin-search-dir=. .",
-        "sass": "sass static/global.scss static/global.css --style=compressed"
+        "sass": "sass static/global.scss static/global.css --style=compressed",
+        "deploy": "npm run build && gh-pages -b master -d docs -t"
     },
     "devDependencies": {
         "@sveltejs/adapter-netlify": "^1.0.0-next.51",
