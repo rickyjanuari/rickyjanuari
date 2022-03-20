@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-229ef520.js",
+    "file": "start-34cd6a7e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -100,7 +100,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/berita/__layout.svelte-fa968e67.css"
+      "assets/pages/products/__layout.svelte-48180b54.css"
     ]
   },
   "src/routes/products/index.svelte": {
@@ -160,7 +160,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/berita/__layout.svelte-fa968e67.css"
+      "assets/pages/products/__layout.svelte-48180b54.css"
     ]
   },
   "src/routes/berita/index.svelte": {
@@ -211,7 +211,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/pages/berita/__layout.svelte-fa968e67.css"
+      "assets/pages/products/__layout.svelte-48180b54.css"
     ]
   },
   "src/routes/blog/index.svelte": {
@@ -242,13 +242,13 @@
     ]
   },
   "src/routes/blog/category/[category].svelte": {
-    "file": "pages/blog/category/_category_.svelte-b54e526d.js",
+    "file": "pages/blog/category/_category_.svelte-0e6a2709.js",
     "src": "src/routes/blog/category/[category].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-b62d7b9b.js",
-      "_fetchPosts-383f5e14.js",
+      "_fetchPosts-011e29df.js",
       "_Main-f748586d.js",
       "_PostList-5ba61222.js",
       "_preload-helper-510846e5.js",
@@ -273,13 +273,13 @@
     ]
   },
   "src/routes/blog/page/[page].svelte": {
-    "file": "pages/blog/page/_page_.svelte-6185ccc8.js",
+    "file": "pages/blog/page/_page_.svelte-e01c17b9.js",
     "src": "src/routes/blog/page/[page].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-b62d7b9b.js",
-      "_fetchPosts-383f5e14.js",
+      "_fetchPosts-011e29df.js",
       "_PostList-5ba61222.js",
       "_Main-f748586d.js",
       "_Pagination-4f56842f.js",
@@ -292,7 +292,7 @@
     ]
   },
   "src/routes/blog/[post].svelte": {
-    "file": "pages/blog/_post_.svelte-87ea939f.js",
+    "file": "pages/blog/_post_.svelte-86a83a22.js",
     "src": "src/routes/blog/[post].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -441,8 +441,8 @@
       "assets/Pagination-7586d39d.css"
     ]
   },
-  "_fetchPosts-383f5e14.js": {
-    "file": "chunks/fetchPosts-383f5e14.js",
+  "_fetchPosts-011e29df.js": {
+    "file": "chunks/fetchPosts-011e29df.js",
     "imports": [
       "_preload-helper-510846e5.js"
     ],
@@ -551,7 +551,7 @@
     ]
   },
   "src/routes/blog/_posts/add-blog-comments-static-site.md": {
-    "file": "chunks/add-blog-comments-static-site-aa7896c8.js",
+    "file": "chunks/add-blog-comments-static-site-f1563d5d.js",
     "src": "src/routes/blog/_posts/add-blog-comments-static-site.md",
     "isDynamicEntry": true,
     "imports": [
@@ -733,7 +733,7 @@
     ]
   },
   "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md": {
-    "file": "chunks/introducing-svelte-comparing-with-react-vue-b5c08bfd.js",
+    "file": "chunks/introducing-svelte-comparing-with-react-vue-6f7a4b43.js",
     "src": "src/routes/blog/_posts/introducing-svelte-comparing-with-react-vue.md",
     "isDynamicEntry": true,
     "imports": [
@@ -876,7 +876,7 @@
     ]
   },
   "src/lib/components/demos/markdown/counter-button/vue3.md": {
-    "file": "chunks/vue3-2261e932.js",
+    "file": "chunks/vue3-88e7493c.js",
     "src": "src/lib/components/demos/markdown/counter-button/vue3.md",
     "isDynamicEntry": true,
     "imports": [
