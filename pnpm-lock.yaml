@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/adapter-cloudflare': ^0.0.1
+  '@sveltejs/adapter-cloudflare-workers': ^1.0.0-next.36
   '@sveltejs/adapter-static': ^1.0.0-next.29
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': ^4.33.0
@@ -28,6 +29,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-cloudflare': 0.0.1
+  '@sveltejs/adapter-cloudflare-workers': 1.0.0-next.36
   just-debounce: 1.1.0
   just-throttle: 4.0.1
   rehype-autolink-headings: 6.1.1
@@ -115,6 +117,10 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@iarna/toml/2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: false
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -172,6 +178,13 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@sveltejs/adapter-cloudflare-workers/1.0.0-next.36:
+    resolution: {integrity: sha512-Nx/EVlVIU32Eq7927Z4VPAobZ3nxY5hKn8jhKDA+sn0lDWYNwCnHSf/86flJF3CwMsJjGvWQsy//2IwfAhUo5A==}
+    dependencies:
+      '@iarna/toml': 2.2.5
+      esbuild: 0.14.27
+    dev: false
 
   /@sveltejs/adapter-cloudflare/0.0.1:
     resolution: {integrity: sha512-7VYmm5YB7Ce3f2hfQqvcuiSTukCzGPQICldzZtBqoels6OxQ8cAV8Ixeq8MwCd9Y8T3CuJDDLMLke+0kYLnSkA==}

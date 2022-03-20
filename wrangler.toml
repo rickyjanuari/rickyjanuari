@@ -1,0 +1,2 @@
+account_id = '474d06bac20ab0a44fd4b095db7065d8'
+site = {bucket = "./build", entry-point = "./workers-site"}
